@@ -1,23 +1,15 @@
-@import "fonts";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+@import "fonts/fonts";
+@import "fonts/icons";
+
+$fontFamily: "Montserrat";
+$fontSize: rem(18);
+$mainColor: #000;
 
 body {
-	font-family: CormoranUpright;
-	font-size: 50px;
-	background-color: black;
-	span {
-		color: red;
-	}
-	background: url("@img/paris.jpg") 0 0 no-repeat;
+	font-weight: 500;
 }
 
-@media (max-width: 768px) {
-	span {
-		font-size: 20px;
-	}
-}
 
-@media (max-width: 768px) {
-	body {
-		background-color: green;
-	}
-}
+
+
