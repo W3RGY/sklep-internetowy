@@ -7,6 +7,7 @@
 $fontFamily: "Montserrat";
 $fontSize: rem(18);
 $mainColor: #000;
+$mainDarkColor: #141414;
 $minWidth: 320;
 $maxWidth: 1920;
 $maxWidthContainer: 1590;
@@ -22,17 +23,37 @@ $mobileSmall: em(479.98);
 
 body {
 	font-weight: 500;
+	font-family: $fontFamily;
 	.lock & {
 		overflow: hidden;
 		touch-action: none;
 	}
 }
 
-.wrapper {
-	min-height: 100%;
-	display: flex;
-	flex-direction: column;
-	overflow: hidden;
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.img {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 
@@ -76,7 +97,7 @@ body {
 	}
 }
 
-
+@import "header"
 
 
 
