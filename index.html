@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230101202026">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230108213138">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +14,16 @@
 
 <body>
 	<div class="wrapper">
+		<div id="callback" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">Закрити</button>
+					<div class="popup__text">
+						Text
+					</div>
+				</div>
+			</div>
+		</div>
 		<header class="header">
 			<div class="header__top top-header">
 				<div class="top-header__container">
@@ -43,18 +53,18 @@
 					<div class="body-header__actions actions-header">
 						<a href="#" class="actions-header__location _icon-location">Warszawa</a>
 						<div class="actions-header__phones phones-header">
-							<div class="phones-header__items">
+							<div data-spollers class="phones-header__items">
 								<div class="phones-header__item">
-									<a href="#" class="phones-header__phone">48-506-855-964</a>
-									<button type="button" class="phones-header__arrow _icon-arrow-bottom"></button>
+									<a href="tel:48506855964" class="phones-header__phone">48-506-855-964</a>
+									<button data-spoller type="button" class="phones-header__arrow _icon-arrow-bottom"></button>
 									<ul class="phones-header__list">
-										<li><a href="" class="phones-header__phone">48-506-855-965</a></li>
-										<li><a href="" class="phones-header__phone">48-506-855-966</a></li>
-										<li><a href="" class="phones-header__phone">48-506-855-967</a></li>
+										<li><a href="tel:48506855965" class="phones-header__phone">48-506-855-965</a></li>
+										<li><a href="tel:48506855966" class="phones-header__phone">48-506-855-966</a></li>
+										<li><a href="tel:48506855967" class="phones-header__phone">48-506-855-967</a></li>
 									</ul>
 								</div>
 							</div>
-							<button type="button" class="phones-header__callback">Request a call</button>
+							<button data-popup="#callback" type="button" class="phones-header__callback">Request a call</button>
 						</div>
 						<a href="" class="actions-header__favorite _icon-favorite"></a>
 						<div class="actions-header__cart cart-header">
@@ -76,7 +86,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230101202026"></script>
+	<script src="js/app.min.js?_v=20230108213138"></script>
 </body>
 
 </html>
