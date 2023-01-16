@@ -25,93 +25,109 @@
 			</div>
 		</div>
 		<header class="header">
-			<div class="header__top top-header">
-				<div class="top-header__container">
-					<div class="top-header__menu menu">
-						<nav class="menu__body">
-							<ul class="menu__list">
-								<li class="menu__item"><a href="#" class="menu__link">About</a></li>
-								<li class="menu__item"><a href="#" class="menu__link">Payment and Delivery</a></li>
-								<li class="menu__item"><a href="#" class="menu__link">News</a></li>
-								<li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+	<div class="header__top top-header">
+		<div class="top-header__container">
+			<div class="top-header__menu menu">
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#" class="menu__link">About</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Payment and Delivery</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">News</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+					</ul>
+				</nav>
+			</div>
+			<a class="top-header__user _icon-user"><span>Account</span></a>
+			<button type="button" class="icon-menu"><span></span></button>
+		</div>
+	</div>
+	<div class="header__body body-header">
+		<div class="body-header__container">
+			<a href="" class="body-header__logo"></a>
+			<div class="body-header__search">
+				<form action="#" class="search-header">
+					<button type="submit" class="search-header__button _icon-search"></button>
+					<input autocomplete="off" type="text" name="form[]" placeholder="Search" class="search-header__input">
+				</form>
+			</div>
+			<div class="body-header__actions actions-header">
+				<a href="#" class="actions-header__location _icon-location"><span>Warszawa</span></a>
+				<div class="actions-header__phones phones-header">
+					<div data-spollers class="phones-header__items">
+						<div class="phones-header__item">
+							<a href="tel:48506855964" class="phones-header__phone">48-506-855-964</a>
+							<button data-spoller type="button" class="phones-header__arrow _icon-arrow-bottom"></button>
+							<ul class="phones-header__list">
+								<li><a href="tel:48506855965" class="phones-header__phone">48-506-855-965</a></li>
+								<li><a href="tel:48506855966" class="phones-header__phone">48-506-855-966</a></li>
+								<li><a href="tel:48506855967" class="phones-header__phone">48-506-855-967</a></li>
 							</ul>
-						</nav>
+						</div>
 					</div>
-					<a class="top-header__user _icon-user">Account</a>
-					<button type="button" class="icon-menu"><span></span></button>
+					<button data-popup="#callback" type="button" class="phones-header__callback">Request a call</button>
 				</div>
-			</div>
-			<div class="header__body body-header">
-				<div class="body-header__container">
-					<a href="" class="body-header__logo"></a>
-					<div class="body-header__search">
-						<form action="#" class="search-header">
-							<button type="submit" class="search-header__button _icon-search"></button>
-							<input autocomplete="off" type="text" name="form[]" placeholder="Search" class="search-header__input">
-						</form>
-					</div>
-					<div class="body-header__actions actions-header">
-						<a href="#" class="actions-header__location _icon-location">Warszawa</a>
-						<div class="actions-header__phones phones-header">
-							<div data-spollers class="phones-header__items">
-								<div class="phones-header__item">
-									<a href="tel:48506855964" class="phones-header__phone">48-506-855-964</a>
-									<button data-spoller type="button" class="phones-header__arrow _icon-arrow-bottom"></button>
-									<ul class="phones-header__list">
-										<li><a href="tel:48506855965" class="phones-header__phone">48-506-855-965</a></li>
-										<li><a href="tel:48506855966" class="phones-header__phone">48-506-855-966</a></li>
-										<li><a href="tel:48506855967" class="phones-header__phone">48-506-855-967</a></li>
-									</ul>
-								</div>
-							</div>
-							<button data-popup="#callback" type="button" class="phones-header__callback">Request a call</button>
-						</div>
-						<a href="" class="actions-header__favorite _icon-favorite"></a>
-						<div class="actions-header__cart cart-header">
-							<div class="cart-header__icon _icon-cart"><span>0</span></div>
-							<div class="cart-header__body">
-								<div class="cart-header__sum">0 $.</div>
-								<a href="" class="cart-header__link">Order</a>
-							</div>
-						</div>
+				<a href="" class="actions-header__favorite _icon-favorite"></a>
+				<div class="actions-header__cart cart-header">
+					<div class="cart-header__icon _icon-cart"><span>0</span></div>
+					<div class="cart-header__body">
+						<div class="cart-header__sum">0 $.</div>
+						<a href="" class="cart-header__link">Order</a>
 					</div>
 				</div>
 			</div>
-			<div class="header__catalog catalog-header">
-				<div class="catalog-header__container">
-					<nav class="catalog-header__menu menu-catalog">
-						<ul class="menu-catalog__list">
-							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Knife catalog</a></li>
-							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Blade weapon</a></li>
-							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Souvenirs</a></li>
-							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Flashlights ARMYTEK</a></li>
-							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Related products</a></li>
-						</ul>
-						<div class="menu-catalog__sub-menu sub-menu-catalog">
-							<div class="sub-menu-catalog__container">
-								<div class="sub-menu-catalog__block">
-									<div class="sub-menu-catalog__column">
-										<a href="" class="sub-menu-catalog__category">Category of knives</a>
-										<ul class="sub-menu-catalog__list">
-											<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Carving knives</a></li>
-											<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Tourist knives</a></li>
-											<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">hunting knives</a></li>
-											<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Bulat knives</a></li>
-											<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Damascus knives</a></li>
-											<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Tactical purpose</a></li>
-											<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Throwing knives</a></li>
-											<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Machete and Kukri</a></li>
-											<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Kitchen knives</a></li>
-										</ul>
-										<a href="" class="sub-menu-catalog__all">See all</a>
-									</div>
-								</div>
+		</div>
+	</div>
+	<div class="header__catalog catalog-header">
+		<div class="catalog-header__container">
+			<nav class="catalog-header__menu menu-catalog">
+				<ul class="menu-catalog__list">
+					<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Knife catalog</a></li>
+					<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Blade weapon</a></li>
+					<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Souvenirs</a></li>
+					<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Flashlights ARMYTEK</a></li>
+					<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Related products</a></li>
+				</ul>
+				<div class="menu-catalog__sub-menu sub-menu-catalog">
+					<div class="sub-menu-catalog__container">
+						<div class="sub-menu-catalog__block">
+							<div class="sub-menu-catalog__column"><!--1st column-->
+								<a href="" class="sub-menu-catalog__category">Category of knives</a>
+								<ul class="sub-menu-catalog__list">
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Carving knives</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Tourist knives</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Hunting knives</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Bulat knives</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Damascus knives</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Tactical purpose</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Throwing knives</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Machete and Kukri</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Kitchen knives</a></li>
+								</ul>
+								<a href="" class="sub-menu-catalog__all">See all</a>
+							</div>
+							<div class="sub-menu-catalog__column">
+								<a href="" class="sub-menu-catalog__category">Knife production</a>
+								<ul class="sub-menu-catalog__list">
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Knives AIR</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Knives ZIK </a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Knives ZZOSS</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Knives PLweapon</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Knives Gunsmith</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Bulat Ser Bara</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Bulat Andr Umero</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Zlatko Knives</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Knives Style-M</a></li>
+									<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Arms Company</a></li>
+								</ul>
+								<a href="" class="sub-menu-catalog__all">See all</a>
 							</div>
 						</div>
-					</nav>
+					</div>
 				</div>
-			</div>
-		</header>
+			</nav>
+		</div>
+	</div>
+</header>
 		<main class="page">
 		</main>
 		<footer class="footer">
